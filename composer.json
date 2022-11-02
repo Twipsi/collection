@@ -1,0 +1,32 @@
+{
+    "name": "twipsi/collection",
+    "description": "Provides a class for manipulation array and recursive array function with easy syntax",
+    "keywords": ["array","recursive","string", "collection"],
+    "homepage": "http://www.github.com/twipsi/collection",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Petrik Gábor",
+            "email": "admin@twipsi.com"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "8.1.0"
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
