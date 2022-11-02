@@ -1,9 +1,9 @@
 <?php
 
-namespace Twipsi\Tests\Bags;
+namespace Twipsi\Collection\Tests;
 
 use InvalidArgumentException;
-use Twipsi\Support\Bags\ArrayBag;
+use Twipsi\Collection\ArrayBag;
 use PHPUnit\Framework\TestCase;
 
 class ArrayBagTest extends TestCase
@@ -2608,7 +2608,7 @@ class ArrayBagTest extends TestCase
             'xxx, xxx'
         );
     }
-    
+
     // DONE
     public function testCollapseParameters()
     {
